@@ -91,7 +91,7 @@ html{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 330px;  transition: 0.4s all ease;
+    width: 400px;  transition: 0.4s all ease;
 }
 
 .des a{
