@@ -2,10 +2,16 @@
 
 *{
     margin:0;
+    transition: 0.4s all ease;
+
 }
 
 html{
     display: flex;
+    transition: 0.4s all ease;
+}
+.div{
+    transition: 0.4s all ease;
 }
 
 .body-1{
@@ -13,6 +19,7 @@ html{
     display: flex;
     justify-content: space-around;
     height: 90vh;
+    transition: 0.4s all ease;
 }
 .nav{
     display: flex;
@@ -22,23 +29,43 @@ html{
     align-items: center;
     text-align: center;
     justify-content: space-around;
+    transition: 0.4s all ease;
+
 }
 .nav h1{
     color: antiquewhite;
+    transition: 0.4s all ease;
+
 }
 .nav img{
     width: 80px;
     border-radius: 100px;
+    transition: 0.4s all ease;
+
 }
 .body-2{
     display: flex;
     height: 100vh;
+    transition: 0.4s all ease;
     background-color: #23272a;
 }
 .body-3{
     background-color: #2c2f33;
     display: flex;
+    transition: 0.4s all ease;
+    height: 100vh;
+}
+.body-4{
+    display: flex;
+    height: 100vh;
+    background-color: #23272a;
+    transition: 0.4s all ease;
 
+}
+.body-5{
+    background-color: #2c2f33;
+    display: flex;
+    transition: 0.4s all ease;
     height: 100vh;
 }
 .contact{
@@ -50,16 +77,21 @@ html{
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    transition: 0.4s all ease;
+
 }
 .contact img{
     width: 80px;
     padding: 10px;
+    transition: 0.4s all ease;
+
 }
 .contact a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 10px;
     font-family: "Inter", sans-serif;
+    
 }
 
 .contact img:hover{
@@ -91,7 +123,8 @@ html{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 400px;  transition: 0.4s all ease;
+    width: 400px;  
+    transition: 0.4s all ease;
 }
 
 .des a{
