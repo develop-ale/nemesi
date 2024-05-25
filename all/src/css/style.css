@@ -233,3 +233,15 @@ html{
     transition: 0.4s all ease;
     font-size:30px ;
 }
+.des2{
+    width: 150px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1f21;
+}
+.des2 a{
+    color: #ff3130;
+    text-decoration: none;
+}
