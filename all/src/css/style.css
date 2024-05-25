@@ -145,7 +145,7 @@ html{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 340px;  
+    width: 370px;  
     transition: 0.4s all ease;
 }
 
