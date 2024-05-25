@@ -9,6 +9,8 @@
 html{
     display: flex;
     transition: 0.4s all ease;
+
+
 }
 .div{
     transition: 0.4s all ease;
@@ -18,8 +20,28 @@ html{
     background-color: #2c2f33;
     display: flex;
     justify-content: space-around;
-    height: 90vh;
+    height: 100vh;
     transition: 0.4s all ease;
+    align-items: center;
+    color: white;
+}
+.body-1 .imghome img{
+    border-radius: 100px;
+    box-shadow: 0 0 90px #ff3130;
+}
+.body-1 .text h1{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.body-1 .text h1 a{
+    text-align: center;
+    text-decoration: none;
+    color: #ff3130;
+}
+.body-1 .text a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: xxx-large;
 }
 .nav{
     display: flex;
@@ -29,7 +51,7 @@ html{
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    transition: 0.4s all ease;
+    transition: 0.5s all ease;
 
 }
 .nav h1{
@@ -81,7 +103,7 @@ html{
 
 }
 .contact img{
-    width: 80px;
+    width: 70px;
     padding: 10px;
     transition: 0.4s all ease;
 
@@ -95,7 +117,7 @@ html{
 }
 
 .contact img:hover{
-    width: 90px;
+    width: 80px;
     transition: 0.4s all ease;
 }
 .contact a:hover{
@@ -123,7 +145,7 @@ html{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 400px;  
+    width: 340px;  
     transition: 0.4s all ease;
 }
 
