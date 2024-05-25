@@ -4,7 +4,7 @@
     margin:0;
     transition: 0.4s all ease;
     font-family: "Inter", sans-serif;
-
+    transition: 0.4s all ease;
 
 }
 
@@ -30,7 +30,9 @@ html{
 .body-1 .imghome img{
     border-radius: 100px;
     box-shadow: 0 0 90px #ff3130;
+    transition: 0.4s all ease;
 }
+
 .body-1 .text h1{
     color: rgb(255, 255, 255);
     font-size: xx-large;
@@ -40,10 +42,15 @@ html{
     text-decoration: none;
     color: #ff3130;
 }
-.body-1 .text a{
+.sottotitolo{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: xxx-large;
+}
+.body-1 .text .elenco{
+    color:#ff3130;
+    text-decoration: none;
+    font-size: xx-large;
 }
 .nav{
     display: flex;
@@ -194,4 +201,35 @@ html{
 .madina .img a{
     font-size: 50px;
     color: #ff3130;
+}
+.button a{
+    background-color: #ff3130;
+    padding: 10px;
+    border-radius: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    box-shadow: 0 0 30px #ff3130;
+
+}
+.button a{
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+}
+.button a::after{
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s all ease;
+
+}
+.button a:hover{
+    display: flex;
+    width: 210px;
+    height: 40px;
+    transition: 0.4s all ease;
+    font-size:30px ;
 }
