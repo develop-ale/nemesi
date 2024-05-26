@@ -338,3 +338,9 @@ html {
     justify-content: space-around;
     width: 100vh;
 }
+
+.linea2{
+    display: flex;
+    justify-content: space-around;
+    width: 190vh;
+}
