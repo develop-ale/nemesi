@@ -15,7 +15,7 @@
     background-color: #23272a;
     display: flex;
     width: 600px;
-    height: 80vh;
+    height: 70vh;
     border-radius: 30px;
     box-shadow: 0 0 90px #ff3130;
     align-items: center;
@@ -29,7 +29,7 @@
 .divimput{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 40vh;
 }
 .divimput input{
