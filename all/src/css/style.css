@@ -295,10 +295,14 @@ html {
 .staff .founder{
     color: #ff3130;
     font-size:xx-large ;
+    display: flex;
+    justify-content: center;
 }
 .staff .admin{
     color: #ff3130;
     font-size:xx-large ;
+    display: flex;
+    justify-content: center;
 }
 .staff .stafform a{
     color: white;
@@ -327,6 +331,7 @@ html {
 .staff2 .co-founder{
     color: #ff3130;
     font-size:xx-large ;
+    
 }
 .linea{
     display: flex;
