@@ -352,3 +352,26 @@ html {
 .body-4 h1{
     color: white;
 }
+.title-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    background-color: #2c2f33;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #ff3130;
+
+}
+.title-info h1{
+    color: white;
+}
+.title-info img{
+    width: 100px;
+    height: 100px;
+}
+.body-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
