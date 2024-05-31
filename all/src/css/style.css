@@ -344,3 +344,11 @@ html {
     justify-content: space-around;
     width: 190vh;
 }
+.body-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-4 h1{
+    color: white;
+}
