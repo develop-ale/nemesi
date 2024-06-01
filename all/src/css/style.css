@@ -372,6 +372,79 @@ html {
 }
 .body-2{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.cont{
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 600px;
+}
+.sin{
+   justify-content: space-around;
+   flex-direction: column; 
+   justify-content: center;
+}
+.sin .uno{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.sin .due{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.sin .tre{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.sin .quattro{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+.des .uno{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.des .due{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.des .tre{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.des .quattro{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
