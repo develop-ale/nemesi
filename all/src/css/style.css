@@ -383,30 +383,30 @@ html {
     align-items: center;
     width: 600px;
 }
-.sin{
+.sin-1{
    justify-content: space-around;
    flex-direction: column; 
    justify-content: center;
 }
-.sin .uno{
+.sin-1 .uno{
     background-color: #2c2f33;
     height: 100px;
     width: 100px;
     justify-content: center;
 }
-.sin .due{
+.sin-1 .due{
     background-color: #2c2f33;
     height: 100px;
     width: 100px;
     justify-content: center;
 }
-.sin .tre{
+.sin-1 .tre{
     background-color: #2c2f33;
     height: 100px;
     width: 100px;
     justify-content: center;
 }
-.sin .quattro{
+.sin-1 .quattro{
     background-color: #2c2f33;
     height: 100px;
     width: 100px;
@@ -415,37 +415,43 @@ html {
 .cont{
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
-.des .uno{
-    background-color: #2c2f33;
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-}
-.des .due{
-    background-color: #2c2f33;
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-}
-.des .tre{
-    background-color: #2c2f33;
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-}
-.des .quattro{
-    background-color: #2c2f33;
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-}
-.des{
+.des-1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+.sin-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+.des-1 .uno{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
     justify-content: center;
 }
+.des-1 .due{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.des-1 .tre{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+.des-1 .quattro{
+    background-color: #2c2f33;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+
