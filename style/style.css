@@ -265,12 +265,14 @@ html {
 }
 
 .des2 a {
-    color: #ff3130;
+    color: white;
     text-decoration: none;
-    width: 150px;
-    height: 10vh;
+    width: 130px;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1e1f21;
+    background-color: #ff3130;
+    border-radius: 100px;
+    box-shadow: 0 0 30px #ff3130;
 }
