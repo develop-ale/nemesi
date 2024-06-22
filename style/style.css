@@ -276,3 +276,16 @@ html {
     border-radius: 100px;
     box-shadow: 0 0 30px #ff3130;
 }
+
+.des-2 a {
+    color: white;
+    text-decoration: none;
+    width: 130px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff3130;
+    border-radius: 100px;
+    box-shadow: 0 0 30px #ff3130;
+}
