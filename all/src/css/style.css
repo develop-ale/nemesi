@@ -614,3 +614,13 @@ html {
     padding: 2px;
     border-radius: 4px;
 }
+
+@media (max-width: 780px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 30vh;
+    }
+    
+    }
